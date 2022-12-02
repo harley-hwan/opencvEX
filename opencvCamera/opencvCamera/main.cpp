@@ -3,7 +3,6 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <iostream>
-#include <iostream>
 #include <string>
 
 using namespace std;
@@ -33,6 +32,7 @@ int main(int, char**)
     cout << "FPS: " << fps << endl;
 
     int delay = cvRound(1000 / fps);
+    cout << "delay: " << delay << endl;
 
     //cap.set(CAP_PROP_FRAME_WIDTH, 1000);
     //cap.set(CAP_PROP_FRAME_HEIGHT, 1000);
