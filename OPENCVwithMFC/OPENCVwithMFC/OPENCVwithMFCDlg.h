@@ -8,6 +8,7 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <iostream>
+#include "CameraDlg.h"
 
 using namespace cv;
 
@@ -38,11 +39,9 @@ protected:
 	afx_msg HCURSOR OnQueryDragIcon();
 	DECLARE_MESSAGE_MAP()
 public:
-	CStatic m_picture;
 	afx_msg void OnDestroy();
 	afx_msg void OnTimer(UINT_PTR nIDEvent);
 
-	VideoCapture capture;
-	Mat mat_frame;
-	CImage cimage_mfc;
+
+	afx_msg void OnBnClickedCamera();
 };

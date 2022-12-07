@@ -189,6 +189,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CameraDlg.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="OPENCVwithMFC.h" />
     <ClInclude Include="OPENCVwithMFCDlg.h" />
@@ -197,6 +198,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CameraDlg.cpp" />
     <ClCompile Include="OPENCVwithMFC.cpp" />
     <ClCompile Include="OPENCVwithMFCDlg.cpp" />
     <ClCompile Include="pch.cpp">

@@ -1,3 +1,5 @@
-﻿  OPENCVwithMFCDlg.cpp
-E:\GitHub\opencvEX\OPENCVwithMFC\OPENCVwithMFC\OPENCVwithMFCDlg.cpp(200,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+﻿  CameraDlg.cpp
+  OPENCVwithMFC.cpp
+  OPENCVwithMFCDlg.cpp
+  Generating Code...
   OPENCVwithMFC.vcxproj -> E:\GitHub\opencvEX\OPENCVwithMFC\x64\Debug\OPENCVwithMFC.exe
